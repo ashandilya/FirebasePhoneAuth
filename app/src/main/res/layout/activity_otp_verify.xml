@@ -21,7 +21,7 @@
         android:id="@+id/OtpButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Verify"
+        android:text="Verify OTP"
         android:textColor="#ffffff"
         android:background="#000000"
         android:textSize="20sp"/>
