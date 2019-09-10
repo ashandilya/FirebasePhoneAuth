@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#8B78E6"
+    android:padding="32dp">
+
+   <EditText
+       android:id="@+id/phoneNo"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Phone number"
+       android:textSize="16sp"
+       android:layout_marginBottom="15dp"
+       android:inputType="phone"
+       android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/FirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:layout_marginBottom="15dp"
+        android:textSize="16sp"
+        android:inputType= "textPersonName"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/LastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Name"
+        android:layout_marginBottom="15dp"
+        android:textSize="16sp"
+        android:inputType= "textPersonName"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Id"
+        android:layout_marginBottom="20dp"
+        android:textSize="16sp"
+        android:inputType="textShortMessage"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimary"
+        android:textSize="20sp"/>
+
+
+
+
+</LinearLayout>
